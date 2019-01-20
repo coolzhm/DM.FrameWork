@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>DM.FrameWork</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DM.FrameWork.Domain\DM.FrameWork.Domain.csproj" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="0.12.0" />
+  </ItemGroup>
+
+</Project>
